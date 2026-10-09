@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aim-ai"
+version = "0.1.0"
+description = "YOLO-based Aim Lab screen detection, tracking and mouse control for Windows"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+aim-ai = "aim_ai.runtime:main"
+
+[tool.setuptools.packages.find]
+include = ["aim_ai*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

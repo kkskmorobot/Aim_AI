@@ -1,0 +1,15 @@
+{
+  "expected_screen_width": 3840,
+  "expected_screen_height": 2160,
+  "expected_refresh_rate": 160,
+  "aimlab_vertical_fov": 73.73979187011719,
+  "aimlab_look_increment_degrees": 0.044,
+  "aimlab_mouse_dpi": 800,
+  "search_tile_width": 1344,
+  "search_tile_height": 1152,
+  "search_stride_x": 1248,
+  "search_stride_y": 1008,
+  "inference_size": 1344,
+  "coarse_inference_size": 1536,
+  "confidence": 0.25
+}

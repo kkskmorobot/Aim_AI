@@ -1,0 +1,45 @@
+# Python, environments, editor state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage*
+htmlcov/
+
+# Local datasets, checkpoints, training results
+data/
+Aim_Bot_Runs/
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.cache
+
+# Preserved originals and backups (local only)
+local_archive/
+Aimbot.py
+*.bak
+*.bak-*
+*.log
+*.zip
+
+# Machine-specific configuration and credentials
+configs/local*.json
+configs/*.local.yaml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+Desktop.ini
+.DS_Store

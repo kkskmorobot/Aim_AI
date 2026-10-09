@@ -1,0 +1,7 @@
+# Relative to this YAML file; put the dataset into the repository's data/ directory.
+path: ../data
+train: train/images
+val: valid/images
+test: test/images
+nc: 2
+names: ['Body', 'Head']
